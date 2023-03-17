@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "vuejs: chrome",
+            "url": "http://localhost:5173",
+            "webRoot": "${workspaceFolder}/vue-project",
+            "breakOnLoad": true,
+            "sourceMapPathOverrides": {
+                "webpack:///src/*": "${webRoot}/vue-project/*"
+            }
+        }
+    ]
+}
