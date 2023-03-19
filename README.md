@@ -28,3 +28,15 @@ npm install
 npm run format
 npm run dev
 
+## Nuxt3
+
+npx nuxi init
+
+cd nuxt-app
+npm install
+npm run dev
+
+npm install -D @nuxtjs/eslint-config-typescript eslint eslint-config-prettier husky lint-staged prettier typescript
+
+add .eslintrc
+add .prettierrc
